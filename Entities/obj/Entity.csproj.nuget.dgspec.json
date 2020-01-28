@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj": {}
+    "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj": {
+    "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj",
+        "projectPath": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj",
         "packagesPath": "C:\\Users\\mageshs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mageshs\\AppData\\Roaming\\NuGet\\NuGet.Config",

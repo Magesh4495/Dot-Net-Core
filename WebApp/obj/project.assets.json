@@ -8562,11 +8562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mageshs\\source\\repos\\Master\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\mageshs\\source\\repos\\Master\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\mageshs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mageshs\\source\\repos\\Master\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mageshs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8582,8 +8582,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj": {
-              "projectPath": "C:\\Users\\mageshs\\source\\repos\\Master\\Entities\\Entity.csproj"
+            "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj": {
+              "projectPath": "C:\\Users\\mageshs\\Source\\Repos\\Dot Net Core Products App\\Entities\\Entity.csproj"
             }
           }
         }

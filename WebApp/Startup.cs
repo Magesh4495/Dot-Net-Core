@@ -27,19 +27,11 @@ namespace WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //services.AddTransient<Database, SqlDatabase>();
             services.TryAddEnumerable(new[] {
-                //ServiceDescriptor.Transient<IBaseDataAccess, BaseDataAccess>(),
                 ServiceDescriptor.Transient<IDataBaseServiceLayer, DataBaseServiceLayer>(),
                 ServiceDescriptor.Transient<IDataBaseRepository, DataBaseRepository>()
             });
-            //services.AddTransient<IBaseDataAccess, BaseDataAccess>((_) => new BaseDataAccess(""));
             services.AddTransient<Database, SqlDatabase>((_) => new SqlDatabase(Configuration["ConnectionString:DevDb"].ToString()));
-            //services.AddDbContext<DataBaseRepositoryContext>(options =>
-            //    options.UseSqlServer(Configuration.GetConnectionString("DevDb")));
-            //services.Add(new ServiceDescriptor(typeof(Database), typeof(SqlDatabase), ServiceLifetime.Transient,));
-            //services.Add(new ServiceDescriptor(typeof(IDataBaseServiceLayer), typeof(DataBaseServiceLayer), ServiceLifetime.Transient));
-            //services.Add(new ServiceDescriptor(typeof(IDataBaseRepository), typeof(DataBaseRepository), ServiceLifetime.Transient));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
