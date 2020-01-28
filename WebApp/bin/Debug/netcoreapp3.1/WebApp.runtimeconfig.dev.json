@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mageshs\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mageshs\\.nuget\\packages"
+    ]
+  }
+}
