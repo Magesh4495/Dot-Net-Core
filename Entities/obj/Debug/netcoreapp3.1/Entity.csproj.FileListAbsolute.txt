@@ -14,6 +14,7 @@ C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\bin\Debug\netco
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\bin\Debug\netcoreapp3.1\Entity.pdb
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\obj\Debug\netcoreapp3.1\Entity.csprojAssemblyReference.cache
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\Entities\obj\Debug\netcoreapp3.1\Entity.csproj.CopyComplete

@@ -29,6 +29,7 @@
                         </li>
                     </ul>
                 </div>
+                <div class="alert alert-success">Hello, @User.Claims.FirstOrDefault(c => c.Type.Equals("cognito:username"))?.Value</div>
             </div>
         </nav>
     </header>

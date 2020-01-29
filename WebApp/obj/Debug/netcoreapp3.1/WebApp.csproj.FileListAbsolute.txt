@@ -166,9 +166,15 @@ C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcore
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\WebApp.Views.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\WebApp.Views.pdb
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\AWSSDK.CognitoIdentity.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\AWSSDK.CognitoIdentityProvider.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\AWSSDK.Extensions.CognitoAuthentication.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\AWSSDK.SecurityToken.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Practices.ServiceLocation.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -194,6 +200,11 @@ C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcore
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -213,7 +224,9 @@ C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcore
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Data.Odbc.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Practices.Unity.Interception.Configuration.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Practices.Unity.Interception.dll
@@ -284,6 +297,7 @@ C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcore
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Entity.dll
 C:\Users\mageshs\Source\Repos\Dot Net Core Products App\WebApp\bin\Debug\netcoreapp3.1\Entity.pdb

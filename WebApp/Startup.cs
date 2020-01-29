@@ -5,10 +5,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.Extensions.Hosting;
 using Entity.Helpers;
 using Microsoft.Practices.EnterpriseLibrary.Data;
 using Microsoft.Practices.EnterpriseLibrary.Data.Sql;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.IdentityModel.Tokens;
 
 namespace WebApp
 {
@@ -26,7 +31,30 @@ namespace WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<OpenIdConnectOptions>(Configuration.GetSection("Authentication:Cognito"));
+            var serviceProvider = services.BuildServiceProvider();
+            var authOptions = serviceProvider.GetService<IOptions<OpenIdConnectOptions>>();
             services.AddControllersWithViews();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+            }
+            )
+            .AddCookie()
+            .AddOpenIdConnect(options =>
+            {
+                options.ResponseType = authOptions.Value.ResponseType;
+                options.MetadataAddress = authOptions.Value.MetadataAddress;
+                options.ClientId = authOptions.Value.ClientId;
+                options.ClientSecret = authOptions.Value.ClientSecret;
+                options.SaveTokens = authOptions.Value.SaveTokens;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = authOptions.Value.TokenValidationParameters.ValidateIssuer
+                };
+            });
             services.TryAddEnumerable(new[] {
                 ServiceDescriptor.Transient<IDataBaseServiceLayer, DataBaseServiceLayer>(),
                 ServiceDescriptor.Transient<IDataBaseRepository, DataBaseRepository>()
@@ -51,6 +79,7 @@ namespace WebApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

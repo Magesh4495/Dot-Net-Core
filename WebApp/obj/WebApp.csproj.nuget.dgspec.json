@@ -108,9 +108,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AWSSDK.Extensions.CognitoAuthentication": {
+              "target": "Package",
+              "version": "[0.9.4, )"
+            },
             "EnterpriseLibrary.Data.NetCore": {
               "target": "Package",
               "version": "[6.0.1313, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
