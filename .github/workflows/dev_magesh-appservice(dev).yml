@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'magesh-appservice'
         slot-name: 'dev'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1739bcab928141c588a93f79f2a3fa0c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dc87d685c6394187b517de20b08392a3 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
